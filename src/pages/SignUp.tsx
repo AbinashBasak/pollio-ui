@@ -1,10 +1,10 @@
-import { SignUpContainer } from './styles/SignUpContainer.styled';
+import { SignUpContainer } from '../components/styles/SignUpContainer.styled';
 import styled from 'styled-components';
 import pic from "../images/sign-up.svg";
 import { BiEnvelope, BiHash, BiPhone, BiIdCard, BiCamera } from "react-icons/bi";
-import InputFeild from './styles/InputFeild.styled';
+import InputFeild from '../components/styles/InputFeild.styled';
 import { useState } from 'react';
-import Camera from './Camera';
+import Camera from '../components/Camera';
 
 const Main = styled.div`
     background-color : ${({ theme }) => theme.color.blur};
